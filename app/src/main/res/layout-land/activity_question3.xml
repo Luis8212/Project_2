@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Question3">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question 3"
+        android:textAlignment="center"
+        android:textColor="@color/purple_200"
+        android:textSize="20dp" />
+    
+ // textxview for the question
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:text=" What to do when stressed out with homework?\n Note: Multiple Answers choose two "
+        android:textColor="@color/purple_200"
+        android:textSize="20dp" />
+
+    // checkboxes for the answers
+    <CheckBox
+        android:id="@+id/checkbox1"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Go for a walk" />
+
+        <CheckBox
+            android:id="@+id/checkbox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Fight with your partner"
+            />
+
+        <CheckBox
+            android:id="@+id/checkbox3"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Take a cold shower"
+            />
+
+        <CheckBox
+            android:id="@+id/checkbox4"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Keep doing your homework"
+            />
+    
+    // space to separate the button
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    // button to check if the answer is correct
+
+    <Button
+        android:id="@+id/btnthrid"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="50dp"
+        android:text="Submit" />
+
+
+</LinearLayout>

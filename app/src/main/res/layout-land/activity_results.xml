@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Results">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="401dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Results:"
+        android:textColor="@color/purple_500"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question 1 : Correct answer: Washington D.C
+                      \nQuestion 2 : Correct answer: July 4
+                      \nQuestion 3 : Question 3 : Correct answer: Take a cold shower and Go for a walk
+                      \nQuestion 4 : Correct answer: April 18
+                      \nQuestion 5 : Correct answer: George Washington"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/resultq1"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="You chose:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/buttonexit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="exit" />
+
+</LinearLayout>

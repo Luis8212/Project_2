@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Rules">
+
+    // attributes
+
+    <TextView
+        android:id="@+id/rule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingTop="50dp"
+        android:textColor="@color/purple_700"
+        android:textSize="30dp"
+        android:text="Rules: " />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/teal_200"
+        android:textSize="15dp"
+        android:text="- Do not leave any question black \n
+                     \n- Even if you never heard the question, try your best\n
+                     \n- Only choose one answer. there is one that has multiple answers \n
+                     \n- Unlimited time\n
+                     \n- There is no time for this but you should not spend more than 5 minutes in each question\n
+                     \n - Good luck" />
+
+    <Button
+        android:id="@+id/game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to the Quiz" />
+</LinearLayout>
